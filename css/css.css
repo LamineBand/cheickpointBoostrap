@@ -1,0 +1,134 @@
+:root {
+  --gris: #d8d8d8;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+#logo {
+  width: 3rem;
+  height: 3rem;
+}
+#navbarSupportedContent {
+  position: relative;
+  float: left;
+}
+#navbarText li {
+  list-style: none;
+}
+#section_entete {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+#conteneur_heros {
+  width: 100%;
+  height: 45rem;
+  background-attachment: fixed;
+  /* background-image: url("../img/crevette.jpg");*/
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.498), rgba(3, 13, 15, 0.459)),
+    url("../img/crevette.jpg") center/cover;
+}
+#heros_texte {
+  position: relative;
+  bottom: -15rem;
+}
+#phrase_heros {
+  font-weight: bold;
+}
+#les_plats {
+  padding-left: 0;
+  padding-right: 0;
+  width: 25rem;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  border-radius: 3%;
+  height: 29rem;
+}
+#img_plat {
+  width: 25rem;
+  height: 17rem;
+  object-fit: cover;
+  margin: 0px;
+}
+
+#h1_plat {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+#desc_plat {
+  margin: 1rem;
+}
+#section_menu {
+  margin-bottom: 10rem;
+}
+#img_resto {
+  height: 30rem;
+  width: 25rem;
+  /* position: relative;
+  left: 5rem;*/
+}
+#desc_resto {
+  font-size: 1.7rem;
+}
+#ligne_apropos {
+  align-items: center;
+}
+#icon {
+  font-size: 2rem;
+  margin: 1rem;
+}
+@media (min-width: 794px) {
+  #exampleInputEmail1 {
+    width: 30rem;
+  }
+  #NomInput {
+    width: 30rem;
+  }
+  #exampleTextarea {
+    width: 30rem;
+  }
+}
+@media (max-width: 1020px) {
+  #ligne_apropos {
+    display: block;
+  }
+  #ligne_plat {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 437px) {
+  #img_plat {
+    width: 20rem;
+    height: 16rem;
+    object-fit: cover;
+  }
+}
+@media (max-width: 1204px) {
+  /*  #ligne_apropos {
+    display: flex;
+  }*/
+
+  #desc_resto {
+    /* position: relative;
+    left: 2rem;*/
+    font-size: 1.4rem;
+    margin-top: 2rem;
+  }
+}
+@media (max-width: 1050) {
+  #desc_resto {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 430px) {
+  #img_resto {
+    width: 17rem;
+    height: 19rem;
+  }
+}

@@ -1,0 +1,52 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#logo {
+  width: 5rem;
+  height: 5rem;
+  object-fit: cover;
+}
+
+#navbarText li {
+  list-style: none;
+}
+
+#navbarText li a {
+  padding: 5px;
+}
+#section_heros {
+  width: 100%;
+  height: 37rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(3, 13, 15, 0.5)),
+    url("../img_voyage/hero1\ \(1\).webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#text_heros {
+  color: white;
+  position: relative;
+  bottom: -10rem;
+}
+.card {
+  width: 18rem;
+  height: 25rem;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+i {
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+@media (max-width: 999px) {
+  .card {
+    display: block;
+  }
+}
+@media (min-width: 768px) {
+  #champFom {
+    width: 30rem;
+  }
+}
