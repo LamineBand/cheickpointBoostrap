@@ -117,34 +117,22 @@ function App() {
         <div className="offcanvas-body">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link" href="#home" data-bs-dismiss="offcanvas">
+              <a className="nav-link" href="#home">
                 <i className="fas fa-home me-2"></i>Accueil
               </a>
             </li>
             <li className="nav-item">
-              <a
-                className="nav-link"
-                href="#destinations"
-                data-bs-dismiss="offcanvas"
-              >
+              <a className="nav-link" href="#destinations">
                 <i className="fas fa-map-marker-alt me-2"></i>Destinations
               </a>
             </li>
             <li className="nav-item">
-              <a
-                className="nav-link"
-                href="#voyages"
-                data-bs-dismiss="offcanvas"
-              >
+              <a className="nav-link" href="#voyages">
                 <i className="fas fa-route me-2"></i>Circuits
               </a>
             </li>
             <li className="nav-item">
-              <a
-                className="nav-link"
-                href="#contact"
-                data-bs-dismiss="offcanvas"
-              >
+              <a className="nav-link" href="#contact">
                 <i className="fas fa-envelope me-2"></i>Contact
               </a>
             </li>
